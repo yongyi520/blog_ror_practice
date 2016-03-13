@@ -14,8 +14,9 @@ default: &default
   encoding: utf8
   pool: 5
   username: root
-  password:
+  password: password
   host: localhost
+  socket: MySQL
 
 development:
   <<: *default
@@ -50,5 +51,5 @@ test:
 production:
   <<: *default
   database: blog_production
-  username: blog
-  password: <%= ENV['BLOG_DATABASE_PASSWORD'] %>
+  username: root
+  password: password
