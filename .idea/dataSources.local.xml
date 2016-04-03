@@ -3,19 +3,16 @@
   <component name="dataSourceStorageLocal">
     <data-source name="Rails blog: test" uuid="913f9668-85b2-44e9-86d6-2bf8a021331e">
       <user-name>root</user-name>
-      <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
       <schema-pattern>blog_test.*</schema-pattern>
       <default-schemas>blog_test.*</default-schemas>
     </data-source>
     <data-source name="Rails blog: production" uuid="ec99e3b8-6263-4285-9e4b-899ecdfcbaf4">
       <user-name>root</user-name>
-      <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
       <schema-pattern>blog_production.*</schema-pattern>
       <default-schemas>blog_production.*</default-schemas>
     </data-source>
     <data-source name="Rails blog: development" uuid="397ac41e-a532-4ef7-8930-67d6e843d471">
       <user-name>root</user-name>
-      <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
       <schema-pattern>blog_development.*</schema-pattern>
       <default-schemas>blog_development.*</default-schemas>
     </data-source>

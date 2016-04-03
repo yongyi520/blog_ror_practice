@@ -11,7 +11,7 @@
 </head>
 <body>
 <header id="main_navigation" class="clearfix">
-  <a href="index.html" class="name">Yongyi Xu</a>
+  <%= link_to "Yongyi Xu", root_path, class: "name" %>
   <nav>
     <%= link_to "Articles", posts_path %>
     <a href="#">Projects</a>
@@ -20,6 +20,15 @@
 </header>
 
 <%= yield %>
+
+<footer id="main_footer">
+  <p class="copyright"> &copy;2016 Yongyi Xu</p>
+  <nav>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-github"></i></a>
+  </nav>
+</footer>
 
 </body>
 </html>

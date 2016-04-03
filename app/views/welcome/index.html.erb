@@ -1,0 +1,32 @@
+<div class="wrapper wrapper_padding clearfix">
+  <div class="col-1 about homepage_content">
+    <h2>About</h2>
+    <hr>
+    <p>
+      Is <a href="#">allowance</a> instantly strangers applauded discourse so. Separate entrance welcomed sensible laughing why one moderate shy. We seeing piqued garden he. As in merry at forth least ye stood. And cold sons yet with. Delivered middleton therefore me at. Attachment companions man way excellence how her pianoforte.
+    </p>
+    <p>
+      No opinions answered oh felicity is resolved hastened. Produced it friendly my if opinions humoured. Enjoy is wrong folly no taken. It sufficient instrument insipidity simplicity at interested. Law pleasure attended differed mrs fat and formerly. Merely thrown garret her law danger him son better excuse. Effect extent narrow in up chatty. Small are his chief offer happy had.
+    </p>
+  </div>
+  <div class="col-2 homepage_content">
+    <h2>Stuff I've Written</h2>
+    <hr>
+    
+    <% @posts.each do |post| %>
+        <h3><a href="#"><%= link_to post.title, post %></a></h3>
+        <p class="date"><%= post.created_at.strftime("%A, %b %d")%></p>
+    <% end %>
+
+  </div>
+  <div class="col-2 homepage_content">
+    <h2>Stuff I've Built</h2>
+    <hr>
+    <h3><a href="#">Unicasts</a></h3>
+    <p class="date">Friday April 10th</p>
+    <h3><a href="#">The Xu Community</a></h3>
+    <p class="date">Friday April 10th</p>
+    <h3><a href="#">I am Unstoppable Project</a></h3>
+    <p class="date">Friday April 10th</p>
+  </div>
+</div>
