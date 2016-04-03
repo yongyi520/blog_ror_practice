@@ -7,7 +7,14 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+  <header id="main_navigation" class="clearfix">
+    <a href="index.html" class="name">Yongyi Xu</a>
+    <nav>
+      <%= link_to "Articles", posts_path %>
+      <a href="#">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 <%= yield %>
 
 </body>
